@@ -1,5 +1,6 @@
 package tll.kinoback.movie.models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -13,5 +14,6 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int movieId;
     private String title;
-    private String image;
+    @Column(length = 500)
+    private String imageUrl;
 }
