@@ -14,6 +14,10 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int movieId;
     private String title;
+    private String genre;
+    private String duration;
+    private String description;
+    private String cast;
     @Column(length = 500)
     private String imageUrl;
 }
