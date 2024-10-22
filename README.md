@@ -11,8 +11,6 @@ KinoBack is the backend component of the Kino application, developed as a RESTfu
   - Utilizes MySQL for storing and retrieving movie data.
 - **RESTful API:** 
   - Provides endpoints for movie data access and manipulation.
-- **Search Functionality:**
-  - Users can search for movies by title.
 
 ## Features to Come
 - **Admin Management Interface:** 
